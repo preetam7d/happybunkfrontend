@@ -9,10 +9,10 @@ export default function Admindash() {
     const [complaints, setComplaints] = useState([]);
 
     const deleteHandler = (id) => {
-        axios.delete(`http://65.0.127.9:5000/api/user/${id}`).then(res => window.location.reload(false));
+        axios.delete(`https://one23-8anx.onrender.com/api/user/${id}`).then(res => window.location.reload(false));
     }
     useEffect(() => {
-        axios.get('http://65.0.127.9:5000/api/user').then(res => setusers(res.data));
+        axios.get('https://one23-8anx.onrender.com/api/user').then(res => setusers(res.data));
     }, [])
     
   useEffect(() => {
@@ -22,7 +22,7 @@ export default function Admindash() {
 
     const fetchFormData = async () => {
         try {
-          const response = await axios.get('http://65.0.127.9:5000/api/formData');
+          const response = await axios.get('https://one23-8anx.onrender.com/api/formData');
           setFormData(response.data);
         } catch (error) {
           console.error('Error fetching form data:', error);
@@ -31,7 +31,7 @@ export default function Admindash() {
 
       const fetchComplaints = async () => {
         try {
-          const response = await axios.get('http://65.0.127.9:5000/api/complaints');
+          const response = await axios.get('https://one23-8anx.onrender.com/api/complaints');
           setComplaints(response.data);
         } catch (error) {
           console.error('Error fetching complaints:', error);
@@ -39,7 +39,7 @@ export default function Admindash() {
       };
       const deleteComplaint = async (id) => {
         try {
-          await axios.delete(`http://65.0.127.9:5000/api/complaints/${id}`);
+          await axios.delete(`https://one23-8anx.onrender.com/api/complaints/${id}`);
           fetchComplaints();
         } catch (error) {
           console.error('Error deleting complaint:', error);
