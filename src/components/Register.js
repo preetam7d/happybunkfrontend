@@ -32,7 +32,7 @@ export default function Register() {
 
 
         // If email and password are valid, proceed with registration
-        axios.post(`https://one23-8anx.onrender.com/api/auth/register`, register)
+        axios.post(`http://65.0.127.9:5000/api/auth/register`, register)
             .then(res => {
                 alert(res.data);
                 navigate('/login');

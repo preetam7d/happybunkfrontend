@@ -15,7 +15,7 @@ export default function AdminLogin({ setIsAdminAuthenticated }) {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://one23-8anx.onrender.com/api/auth/adminlogin', login);
+      const response = await axios.post('http://65.0.127.9:5000/api/auth/adminlogin', login);
       setIsAdminAuthenticated(true);
       localStorage.setItem('isAdminAuthenticated', 'true'); // Store admin login status in local storage
       navigate('/admindash');

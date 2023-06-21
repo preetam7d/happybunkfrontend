@@ -15,7 +15,7 @@ export default function Login({ setIsAuthenticated }) {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://one23-8anx.onrender.com/api/auth/login', login);
+      const response = await axios.post('http://65.0.127.9:5000/api/auth/login', login);
       setIsAuthenticated(true);
       localStorage.setItem('isLoggedIn', true); // Store login status
       navigate('/'); // Redirect to homepage or desired route

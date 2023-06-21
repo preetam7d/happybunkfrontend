@@ -20,7 +20,7 @@ function Contactus() {
     };
 
     // Send a POST request to the backend
-    axios.post('https://one23-8anx.onrender.com/complaints', complaint)
+    axios.post('http://65.0.127.9:5000/complaints', complaint)
       .then((res) => {
         console.log(res.data);
         alert('submitted successfully',res.data)
