@@ -1,0 +1,165 @@
+.qwe{
+    margin-top: 12%;
+}
+.user {
+    display: flex;
+    align-items: center;
+    margin-top:5%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .name,
+  .username,
+  .usermail {
+    flex: 1;
+  }
+  
+  .name h3,
+  .username h3,
+  .usermail h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .deltebtn {
+    margin-left: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2a2a2a;
+    color:white;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .span {
+    margin-top: 10%;
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+  }
+  
+  .admin-dashboard {
+    margin-top: 12%;
+  }
+  
+  .form-data {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: rgb(217, 217, 217);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .name,
+  .email,
+  .username,
+  .accommodationType,
+  .roomNumber,
+  .acPreference,
+  .fixedAmount {
+    flex: 1;
+  }
+  
+  .name h3,
+  .email h3,
+  .username h3,
+  .accommodationType h3,
+  .roomNumber h3,
+  .acPreference h3,
+  .fixedAmount h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .admin-dashboard button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #2a2a2a;
+    color: white;
+  }
+  
+  .admin-dashboard button:hover {
+    background-color: #444;
+  }
+
+  .complaints {
+    margin-top: 30px;
+  }
+  
+  .complaints h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .complaint {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #c9c9c9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .complaint > div {
+    flex: 1;
+  }
+  
+  .complaint h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    margin-left: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2a2a2a;
+    color: white;
+  }
+  
+  

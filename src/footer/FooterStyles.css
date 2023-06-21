@@ -1,0 +1,38 @@
+.footer{
+    padding:0rem 5rem;
+    background: #000;
+    color: #fff;
+
+}
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.bottom{
+    padding-top: -100px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bottom div{
+    display: flex;
+    flex-direction: column;
+
+}
+.bottom h4{
+    font-size: 1.3rem;
+    padding: .1rem 0 .1rem 0;
+
+}
+.bottom a{
+    text-decoration: none;
+    color:#fafafa;
+    padding-bottom: .4rem;
+    font-size: 1.1rem;
+
+}
